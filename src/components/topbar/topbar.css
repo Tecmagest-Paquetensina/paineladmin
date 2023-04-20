@@ -1,0 +1,74 @@
+.topbar {
+    width: 100%;
+    height: 50px;
+    background-color: #333333;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    background-color: #333333;
+    transition: all ease 0.5s;
+}
+
+.topbar__Wrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar__Text {
+    font-weight: bold;
+    font-size: 30px;
+    color: #67ad54;
+    cursor: pointer;
+}
+
+topbar__Text active, .topbar__Text:hover{
+    color: #f4f4f4;
+    font-weight: 600;
+} 
+
+  .topbar__Logo {
+    height: 38px;
+    padding-top: 10px;
+    cursor: pointer;
+  }
+
+  .topbar__Right {
+    display: flex;
+    align-items: center;
+    
+}
+
+.topbar__IconContainer {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #555;
+}
+
+.topbar__IconBag {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: red;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.topbar__avatar {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    cursor: pointer;
+}
